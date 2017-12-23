@@ -8,11 +8,11 @@ Run merge/nodemerge.js to execute the merge tool.  The available options are des
 
 Usage: /usr/local/bin/node ./merge/nodemerge.js --repository [path] --destination [path] --left [identifier] --right [identifier]
 
-Options:
-  --repository   Path to remote or local repository.     [required]
-  --destination  Local destination for repository clone  [required]
-  --left         The destination branch for the merge    [required]
-  --right        The source branch for the merge         [required]
+Options:  
+  --repository   Path to remote or local repository.     [required]  
+  --destination  Local destination for repository clone  [required]  
+  --left         The destination branch for the merge    [required]   
+  --right        The source branch for the merge         [required]  
 
 You can use remote repositories like, github.org.  It should support all expected protocols.  Or you can use local repositories, that will be cloned to the destination location.
 
